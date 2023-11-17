@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(.gray)
+                Color(.systemGray6)
                     .ignoresSafeArea()
                 VStack {
                     Text("Pokedex")
@@ -29,7 +29,6 @@ struct ContentView: View {
                             }
                         }
                     }
-                    .padding()
                 .ignoresSafeArea(.all)
                 }
             }
